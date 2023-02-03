@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+
+  padding: 0;
+}
+.base-bar{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  background-color: #D4E0DB;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas: "a1" "a2" "a3";
+  justify-content: center;
+  width: 100vw;
+  height: 7rem;
+}
+
+
+.birb{
+  width:  5rem;
+}
+
+.logo{
+  margin: auto;
+  height: 4rem;
+
+}
+.tree{
+  height: 3.5rem;
+  margin:auto;
+  margin-top: 3.5rem;
+}
+
