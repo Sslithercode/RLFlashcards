@@ -8,7 +8,7 @@ export default function Login(){
 
     const login = async (e) =>{
         e.preventDefault();
-        const res = await fetch("http://127.0.0.1:5000/login",{
+        const res = await fetch("https://8000-sslithercod-rlflashcard-ugheinroepa.ws-us92.gitpod.io/login",{
           method: 'POST',
           body: JSON.stringify({
             username: username,
